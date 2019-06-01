@@ -12,16 +12,24 @@
 		5B8AD4AD22A2580000FF04BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8AD4AB22A2580000FF04BD /* Main.storyboard */; };
 		5B8AD4AF22A2580100FF04BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8AD4AE22A2580100FF04BD /* Assets.xcassets */; };
 		5B8AD4B222A2580100FF04BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8AD4B022A2580100FF04BD /* LaunchScreen.storyboard */; };
+		5B8AD4BC22A258F200FF04BD /* MycollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8AD4BA22A258F200FF04BD /* MycollectionCell.swift */; };
+		5B8AD4C022A259B300FF04BD /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8AD4BF22A259B300FF04BD /* MyTableViewCell.swift */; };
+		5B8AD4C222A2663D00FF04BD /* ModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8AD4C122A2663D00FF04BD /* ModelClass.swift */; };
+		5B8AD4C422A26A7600FF04BD /* SecoundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8AD4C322A26A7600FF04BD /* SecoundVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B8AD4A422A2580000FF04BD /* sottatableCOlle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sottatableCOlle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8AD4A422A2580000FF04BD /* CollectionVIewTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionVIewTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8AD4A722A2580000FF04BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B8AD4A922A2580000FF04BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B8AD4AC22A2580000FF04BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B8AD4AE22A2580100FF04BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B8AD4B122A2580100FF04BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B8AD4B322A2580100FF04BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B8AD4BA22A258F200FF04BD /* MycollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MycollectionCell.swift; sourceTree = "<group>"; };
+		5B8AD4BF22A259B300FF04BD /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		5B8AD4C122A2663D00FF04BD /* ModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelClass.swift; sourceTree = "<group>"; };
+		5B8AD4C322A26A7600FF04BD /* SecoundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecoundVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +54,7 @@
 		5B8AD4A522A2580000FF04BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B8AD4A422A2580000FF04BD /* sottatableCOlle.app */,
+				5B8AD4A422A2580000FF04BD /* CollectionVIewTableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,22 +62,42 @@
 		5B8AD4A622A2580000FF04BD /* sottatableCOlle */ = {
 			isa = PBXGroup;
 			children = (
+				5B8AD4BE22A2598B00FF04BD /* Tableview */,
+				5B8AD4B922A258C900FF04BD /* COllectionVIew */,
 				5B8AD4A722A2580000FF04BD /* AppDelegate.swift */,
 				5B8AD4A922A2580000FF04BD /* ViewController.swift */,
 				5B8AD4AB22A2580000FF04BD /* Main.storyboard */,
 				5B8AD4AE22A2580100FF04BD /* Assets.xcassets */,
 				5B8AD4B022A2580100FF04BD /* LaunchScreen.storyboard */,
 				5B8AD4B322A2580100FF04BD /* Info.plist */,
+				5B8AD4C122A2663D00FF04BD /* ModelClass.swift */,
+				5B8AD4C322A26A7600FF04BD /* SecoundVC.swift */,
 			);
 			path = sottatableCOlle;
+			sourceTree = "<group>";
+		};
+		5B8AD4B922A258C900FF04BD /* COllectionVIew */ = {
+			isa = PBXGroup;
+			children = (
+				5B8AD4BA22A258F200FF04BD /* MycollectionCell.swift */,
+			);
+			path = COllectionVIew;
+			sourceTree = "<group>";
+		};
+		5B8AD4BE22A2598B00FF04BD /* Tableview */ = {
+			isa = PBXGroup;
+			children = (
+				5B8AD4BF22A259B300FF04BD /* MyTableViewCell.swift */,
+			);
+			path = Tableview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B8AD4A322A2580000FF04BD /* sottatableCOlle */ = {
+		5B8AD4A322A2580000FF04BD /* CollectionVIewTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B8AD4B622A2580100FF04BD /* Build configuration list for PBXNativeTarget "sottatableCOlle" */;
+			buildConfigurationList = 5B8AD4B622A2580100FF04BD /* Build configuration list for PBXNativeTarget "CollectionVIewTableView" */;
 			buildPhases = (
 				5B8AD4A022A2580000FF04BD /* Sources */,
 				5B8AD4A122A2580000FF04BD /* Frameworks */,
@@ -79,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = sottatableCOlle;
+			name = CollectionVIewTableView;
 			productName = sottatableCOlle;
-			productReference = 5B8AD4A422A2580000FF04BD /* sottatableCOlle.app */;
+			productReference = 5B8AD4A422A2580000FF04BD /* CollectionVIewTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B8AD49F22A2580000FF04BD /* Build configuration list for PBXProject "sottatableCOlle" */;
+			buildConfigurationList = 5B8AD49F22A2580000FF04BD /* Build configuration list for PBXProject "CollectionVIewTableView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B8AD4A322A2580000FF04BD /* sottatableCOlle */,
+				5B8AD4A322A2580000FF04BD /* CollectionVIewTableView */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8AD4C222A2663D00FF04BD /* ModelClass.swift in Sources */,
 				5B8AD4AA22A2580000FF04BD /* ViewController.swift in Sources */,
+				5B8AD4C422A26A7600FF04BD /* SecoundVC.swift in Sources */,
+				5B8AD4C022A259B300FF04BD /* MyTableViewCell.swift in Sources */,
+				5B8AD4BC22A258F200FF04BD /* MycollectionCell.swift in Sources */,
 				5B8AD4A822A2580000FF04BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B8AD49F22A2580000FF04BD /* Build configuration list for PBXProject "sottatableCOlle" */ = {
+		5B8AD49F22A2580000FF04BD /* Build configuration list for PBXProject "CollectionVIewTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B8AD4B422A2580100FF04BD /* Debug */,
@@ -326,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B8AD4B622A2580100FF04BD /* Build configuration list for PBXNativeTarget "sottatableCOlle" */ = {
+		5B8AD4B622A2580100FF04BD /* Build configuration list for PBXNativeTarget "CollectionVIewTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B8AD4B722A2580100FF04BD /* Debug */,
